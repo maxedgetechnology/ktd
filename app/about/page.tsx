@@ -98,7 +98,7 @@ export default function AboutPage() {
               <div className="flex flex-col md:flex-row gap-6 items-start">
                 <div className="relative h-24 w-24 rounded-full overflow-hidden border border-brand-gray-border shrink-0 self-center md:self-start">
                   <Image
-                    src="/sarian_portrait.png"
+                    src="/Screenshot 2026-06-08 222753.png"
                     alt="Sarian Karim-Kamara portrait"
                     fill
                     className="object-cover"

@@ -54,6 +54,11 @@ export default function Header() {
     setIsMenuOpen(false);
   };
 
+  const navigateToFounder = () => {
+    router.push("/meet-the-founder");
+    setIsMenuOpen(false);
+  };
+
   return (
     <header
       className={`sticky top-0 z-40 w-full transition-all duration-300 ${
@@ -92,10 +97,10 @@ export default function Header() {
             </button>
             <span className="h-4 w-[1px] bg-zinc-200"></span>
             <button
-              onClick={() => handleNavClick("sarian")}
+              onClick={navigateToFounder}
               className="text-xs font-semibold text-zinc-800 px-4 py-1 hover:bg-zinc-50 rounded-full transition-colors cursor-pointer"
             >
-              Sarian’s Story
+              Meet Sarian
             </button>
             <span className="h-4 w-[1px] bg-zinc-200"></span>
             <button
@@ -115,10 +120,21 @@ export default function Header() {
         </div>
 
         {/* Right Section (Actions & Menu) */}
-        <div className="flex items-center gap-2.5 shrink-0">
+        <div className="flex items-center gap-2 shrink-0">
+          <button
+            onClick={navigateToFounder}
+            className={`hidden lg:block text-sm font-semibold py-2.5 px-3.5 rounded-full transition-colors cursor-pointer ${
+              pathname === "/meet-the-founder" 
+                ? "text-terracotta bg-terracotta-light" 
+                : "text-zinc-800 hover:bg-zinc-50"
+            }`}
+          >
+            Meet Sarian
+          </button>
+
           <button
             onClick={navigateToAbout}
-            className={`hidden lg:block text-sm font-semibold py-2.5 px-4 rounded-full transition-colors cursor-pointer ${
+            className={`hidden lg:block text-sm font-semibold py-2.5 px-3.5 rounded-full transition-colors cursor-pointer ${
               pathname === "/about" 
                 ? "text-terracotta bg-terracotta-light" 
                 : "text-zinc-800 hover:bg-zinc-50"
@@ -129,7 +145,7 @@ export default function Header() {
 
           <button
             onClick={navigateToNews}
-            className={`hidden lg:block text-sm font-semibold py-2.5 px-4 rounded-full transition-colors cursor-pointer ${
+            className={`hidden lg:block text-sm font-semibold py-2.5 px-3.5 rounded-full transition-colors cursor-pointer ${
               pathname === "/news" 
                 ? "text-terracotta bg-terracotta-light" 
                 : "text-zinc-800 hover:bg-zinc-50"
@@ -179,11 +195,11 @@ export default function Header() {
                     <span>Our Mission & Culture</span>
                   </button>
                   <button
-                    onClick={() => handleNavClick("sarian")}
+                    onClick={navigateToFounder}
                     className="w-full text-left px-4 py-2.5 text-sm text-zinc-700 hover:bg-zinc-50 transition-colors flex items-center gap-2 cursor-pointer"
                   >
                     <BookOpen className="h-4 w-4 text-terracotta" />
-                    <span>Sarian's Story</span>
+                    <span>Meet Sarian (Founder)</span>
                   </button>
                   <button
                     onClick={() => handleNavClick("pillars")}
@@ -238,29 +254,37 @@ export default function Header() {
         <div className="flex items-center justify-around border border-brand-gray-border rounded-full py-1.5 px-2 shadow-sm bg-zinc-50/50">
           <button
             onClick={() => handleNavClick("mission")}
-            className="text-[11px] font-semibold text-zinc-700 py-1 px-2 rounded-full hover:bg-white"
+            className="text-[10px] font-semibold text-zinc-750 py-1 px-1.5 rounded-full hover:bg-white"
           >
             Mission
           </button>
           <button
+            onClick={navigateToFounder}
+            className={`text-[10px] font-semibold py-1 px-1.5 rounded-full ${
+              pathname === "/meet-the-founder" ? "text-terracotta font-bold" : "text-zinc-750"
+            }`}
+          >
+            Founder
+          </button>
+          <button
             onClick={navigateToAbout}
-            className={`text-[11px] font-semibold py-1 px-2 rounded-full ${
-              pathname === "/about" ? "text-terracotta font-bold" : "text-zinc-700"
+            className={`text-[10px] font-semibold py-1 px-1.5 rounded-full ${
+              pathname === "/about" ? "text-terracotta font-bold" : "text-zinc-750"
             }`}
           >
             About
           </button>
           <button
             onClick={navigateToNews}
-            className={`text-[11px] font-semibold py-1 px-2 rounded-full ${
-              pathname === "/news" ? "text-terracotta font-bold" : "text-zinc-700"
+            className={`text-[10px] font-semibold py-1 px-1.5 rounded-full ${
+              pathname === "/news" ? "text-terracotta font-bold" : "text-zinc-750"
             }`}
           >
             News
           </button>
           <button
             onClick={() => handleNavClick("donate-section")}
-            className="text-[11px] font-semibold text-white bg-terracotta py-1 px-2.5 rounded-full shadow-sm"
+            className="text-[10px] font-semibold text-white bg-terracotta py-1 px-2.5 rounded-full shadow-sm"
           >
             Support
           </button>

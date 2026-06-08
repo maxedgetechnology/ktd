@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import { ShieldCheck, MessageSquare, Award, Heart, X, BookOpen } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { ShieldCheck, MessageSquare, Award, Heart, BookOpen } from "lucide-react";
 
 export default function SarianStory() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <section id="sarian" className="py-16 sm:py-24 bg-brand-light border-b border-brand-gray-border">
@@ -33,7 +33,7 @@ export default function SarianStory() {
               <div className="flex flex-col items-center text-center">
                 <div className="relative h-28 w-28 rounded-full overflow-hidden border-2 border-brand-gray-border mb-4">
                   <Image
-                    src="/sarian_portrait.png"
+                    src="/Screenshot 2026-06-08 222753.png"
                     alt="Sarian Karim-Kamara portrait"
                     fill
                     className="object-cover"
@@ -92,7 +92,7 @@ export default function SarianStory() {
           <div className="lg:col-span-8 space-y-8">
             <div>
               <h3 className="text-2xl font-extrabold text-zinc-900 mb-4">About Your Host</h3>
-              <p className="text-zinc-600 leading-relaxed text-base">
+              <p className="text-zinc-650 leading-relaxed text-base">
                 Sarian created KDLK to reconcile her deep love for her Sierra Leonean culture with the urgent necessity to protect young girls. Through grassroots activism, she addresses FGM with understanding, dialogue, and alternative traditions.
               </p>
             </div>
@@ -135,96 +135,29 @@ export default function SarianStory() {
               </div>
             </div>
 
-            <div className="pt-4">
+            <div className="pt-4 flex flex-wrap gap-3">
               <button
-                onClick={() => setIsModalOpen(true)}
-                className="inline-flex items-center gap-2 text-zinc-950 font-bold border-2 border-zinc-850 hover:bg-zinc-950 hover:text-white px-6 py-3 rounded-xl transition-all text-sm cursor-pointer shadow-sm"
+                onClick={() => router.push("/meet-the-founder")}
+                className="inline-flex items-center gap-2 text-zinc-950 font-bold border-2 border-zinc-800 hover:bg-zinc-950 hover:text-white px-6 py-3 rounded-xl transition-all text-sm cursor-pointer shadow-sm"
               >
                 <BookOpen className="h-4.5 w-4.5" />
                 Read Sarian's Full Story
               </button>
+
+              <a
+                href="https://web.facebook.com/amplifychange/videos/sarian-karim-kamara-from-keep-the-drums-lose-the-knife/1014483619363063/?_rdc=1&_rdr#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-white bg-terracotta hover:bg-terracotta-dark font-bold px-6 py-3 rounded-xl transition-all text-sm cursor-pointer shadow-sm"
+              >
+                <span className="text-sm">▶</span>
+                Watch Interview Video
+              </a>
             </div>
           </div>
 
         </div>
       </div>
-
-      {/* Sarian's Full Story Modal (Airbnb style overlay) */}
-      {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          {/* Backdrop */}
-          <div
-            className="fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity"
-            onClick={() => setIsModalOpen(false)}
-          />
-
-          {/* Modal Content container */}
-          <div className="bg-white rounded-3xl w-full max-w-2xl max-h-[85vh] overflow-y-auto relative z-10 shadow-2xl animate-in zoom-in-95 duration-200 border border-brand-gray-border">
-            
-            {/* Header */}
-            <div className="sticky top-0 bg-white border-b border-brand-gray-border px-6 py-4 flex items-center justify-between z-10">
-              <h3 className="text-lg font-extrabold text-zinc-900">Sarian Karim-Kamara’s Journey</h3>
-              <button
-                onClick={() => setIsModalOpen(false)}
-                className="text-zinc-400 hover:text-zinc-800 p-1.5 rounded-full hover:bg-zinc-100 transition-colors cursor-pointer"
-              >
-                <X className="h-5 w-5" />
-              </button>
-            </div>
-
-            {/* Body */}
-            <div className="p-6 space-y-6">
-              <div className="relative h-60 w-full rounded-2xl overflow-hidden shadow-inner bg-zinc-100">
-                <Image
-                  src="/sarian_portrait.png"
-                  alt="Sarian Karim-Kamara in London"
-                  fill
-                  className="object-cover object-top"
-                />
-              </div>
-
-              <div className="prose prose-zinc max-w-none text-zinc-600 text-sm leading-relaxed space-y-4">
-                <p>
-                  Sarian Karim-Kamara’s story is one of profound resilience, transforming personal trauma into a global blueprint for cultural preservation and child protection.
-                </p>
-                <h4 className="text-zinc-900 font-extrabold text-base pt-2">The Catalyst of Activism</h4>
-                <p>
-                  At age 11, Sarian underwent Female Genital Mutilation in Sierra Leone as part of the traditional Bondo society rites of passage. The physical trauma of this cut manifested years later during child birth in the UK. She endured a critical, life-threatening four-day labor because internal scar tissue prevented normal delivery. 
-                </p>
-                <p>
-                  Survivors of FGM often suffer in silence due to cultural taboo and trauma-reinforcing stigma. Surviving this labor became Sarian's awakening: she resolved to end the physical knife while preserving the spiritual beauty of her heritage.
-                </p>
-                <h4 className="text-zinc-900 font-extrabold text-base pt-2">The London Sanctuary: Peckham Market</h4>
-                <p>
-                  From her African food market in Peckham, South East London, Sarian began hosting casual conversations with West African mothers. This food hub transformed into a grassroots sanctuary. Mothers discussed cultural identity, family expectations, and the risks daughters faced during holiday trips abroad. She created a non-judgmental space for survivors to speak about unspoken physical and emotional trauma.
-                </p>
-                <h4 className="text-zinc-900 font-extrabold text-base pt-2">Sierra Leone Framework & International Impact</h4>
-                <p>
-                  Sarian knew that lectures from abroad would not change ancient rituals in Sierra Leone. She returned to work directly with the "Soweis"—the elder female leaders of the Bondo society who perform the initiations. 
-                </p>
-                <p>
-                  Her framework separate the Bondo teachings (respect, community strength, motherhood transition, Bondo drumming) from the cutting ritual. Sarian provides alternative initiation support, funding ceremonies that celebrate girls' transitions without any cutting. To date, 7 out of 19 primary communities in Sierra Leone have adopted these bloodless rites.
-                </p>
-                <p>
-                  Her tireless advocacy has led to her serving as an advisor to the UK Home Office, training frontline staff to protect girls at risk, and receiving the UK Prime Minister's Points of Light award.
-                </p>
-              </div>
-            </div>
-
-            {/* Footer */}
-            <div className="sticky bottom-0 bg-zinc-50 border-t border-brand-gray-border px-6 py-4 flex justify-between items-center">
-              <span className="text-xs text-zinc-500 font-medium">Keep the Drums, Lose the Knife</span>
-              <button
-                onClick={() => setIsModalOpen(false)}
-                className="bg-zinc-900 text-white font-bold text-xs px-4 py-2.5 rounded-lg hover:bg-zinc-800 transition-colors cursor-pointer"
-              >
-                Close Story
-              </button>
-            </div>
-
-          </div>
-        </div>
-      )}
     </section>
   );
 }

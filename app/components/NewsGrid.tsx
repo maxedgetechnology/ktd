@@ -37,7 +37,7 @@ export default function NewsGrid() {
       title: "From Grassroots to Global: Sarian Kamara’s Journey of Survival and Activism",
       subtitle: "Our founder shares her lived experience with the International Planned Parenthood Federation to spotlight London’s frontline advocacy.",
       link: "https://www.ippf.org/blogs/authors/sarian-kamara",
-      image: "/sarian_portrait.png",
+      image: "/Screenshot 2026-06-08 222753.png",
       linkLabel: "Read the IPPF Interview Feature"
     },
     {

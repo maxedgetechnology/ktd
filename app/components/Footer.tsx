@@ -62,16 +62,22 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2 pt-1">
               <a 
-                href="tel:08088005000" 
-                className="inline-flex items-center gap-2 font-bold text-zinc-800 hover:text-terracotta text-xs"
+                href="tel:+447846777058" 
+                className="inline-flex items-center gap-2 font-bold text-zinc-800 hover:text-terracotta text-xs animate-pulse"
               >
-                <Phone className="h-3.5 w-3.5" /> 0808 800 5000
+                <Phone className="h-3.5 w-3.5 text-terracotta fill-terracotta-light" /> KDLK Business: +44 7846 777058
+              </a>
+              <a 
+                href="tel:08088005000" 
+                className="inline-flex items-center gap-2 font-semibold text-zinc-500 hover:text-terracotta text-[11px]"
+              >
+                <Phone className="h-3.5 w-3.5 text-zinc-400" /> NSPCC Helpline: 0808 800 5000
               </a>
               <a 
                 href="mailto:help@nspcc.org.uk" 
-                className="inline-flex items-center gap-2 font-bold text-zinc-800 hover:text-terracotta text-xs"
+                className="inline-flex items-center gap-2 font-semibold text-zinc-500 hover:text-terracotta text-[11px]"
               >
-                <Mail className="h-3.5 w-3.5" /> help@nspcc.org.uk
+                <Mail className="h-3.5 w-3.5 text-zinc-400" /> help@nspcc.org.uk
               </a>
             </div>
           </div>

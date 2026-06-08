@@ -63,6 +63,19 @@ export default function Hero() {
               </button>
             </div>
 
+            {/* Video Link Highlight */}
+            <div className="mt-4 text-xs font-semibold text-zinc-500 flex items-center justify-center lg:justify-start gap-1">
+              <span>📽️ Watch the AmplifyChange feature:</span>
+              <a
+                href="https://web.facebook.com/amplifychange/videos/sarian-karim-kamara-from-keep-the-drums-lose-the-knife/1014483619363063/?_rdc=1&_rdr#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-terracotta hover:underline hover:text-terracotta-dark flex items-center gap-0.5"
+              >
+                Sarian Karim-Kamara Interview Video ↗
+              </a>
+            </div>
+
             {/* Micro Stats Bar */}
             <div className="mt-12 pt-8 border-t border-zinc-200/60 grid grid-cols-3 gap-4 text-center lg:text-left max-w-md mx-auto lg:mx-0">
               <div>
