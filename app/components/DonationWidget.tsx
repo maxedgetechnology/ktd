@@ -173,7 +173,7 @@ export default function DonationWidget() {
           <button
             type="submit"
             disabled={activeAmount <= 0}
-            className="w-full py-4.5 rounded-xl bg-gradient-to-r from-terracotta to-[#FF4A3B] text-white text-base font-bold shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] transition-all disabled:opacity-50 disabled:scale-100 disabled:pointer-events-none cursor-pointer"
+            className="w-full py-4.5 rounded-xl bg-gradient-to-r from-terracotta to-[#8B5CF6] text-white text-base font-bold shadow-lg hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] transition-all disabled:opacity-50 disabled:scale-100 disabled:pointer-events-none cursor-pointer"
           >
             Make a Secure Donation
           </button>

@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button
                 onClick={() => scrollToSection("donate-section")}
-                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-terracotta to-[#FF4A3B] text-white px-8 py-4 rounded-xl text-base font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-terracotta to-[#8B5CF6] text-white px-8 py-4 rounded-xl text-base font-bold shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer"
               >
                 <Heart className="h-5 w-5 fill-white" />
                 Support Our Movement

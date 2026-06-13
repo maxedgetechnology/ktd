@@ -52,7 +52,7 @@ export default function Mission() {
 
           {/* Pillar 3 */}
           <div className="flex flex-col bg-brand-light p-8 rounded-3xl border border-brand-gray-border hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-2xl bg-[#D93B00]/10 text-[#D93B00] flex items-center justify-center mb-6 shrink-0">
+            <div className="h-12 w-12 rounded-2xl bg-terracotta/10 text-terracotta flex items-center justify-center mb-6 shrink-0">
               <HeartHandshake className="h-6 w-6" />
             </div>
             <h3 className="text-lg font-bold text-zinc-900 mb-3">Uplifting Survivors</h3>

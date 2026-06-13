@@ -31,7 +31,7 @@ export default function NewsHero() {
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-terracotta to-[#FF4A3B] text-white px-7 py-3.5 rounded-xl text-sm font-bold shadow-lg hover:shadow-xl hover:scale-[1.01] transition-all cursor-pointer"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-terracotta to-[#8B5CF6] text-white px-7 py-3.5 rounded-xl text-sm font-bold shadow-lg hover:shadow-xl hover:scale-[1.01] transition-all cursor-pointer"
             >
               View Featured Story
               <ArrowUpRight className="h-4.5 w-4.5" />

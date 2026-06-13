@@ -9,7 +9,7 @@ export default function EmergencyBanner() {
   if (!isVisible) return null;
 
   return (
-    <div className="relative bg-[#D93B00] text-white py-3.5 px-4 sm:px-6 lg:px-8 text-center text-sm font-medium z-50 flex items-center justify-center gap-2 transition-all duration-300 shadow-md">
+    <div className="relative bg-[#5B21B6] text-white py-3.5 px-4 sm:px-6 lg:px-8 text-center text-sm font-medium z-50 flex items-center justify-center gap-2 transition-all duration-300 shadow-md">
       <div className="flex items-center gap-2 max-w-7xl mx-auto pr-6">
         <ShieldAlert className="h-4.5 w-4.5 shrink-0 animate-pulse text-amber-300" />
         <span>
