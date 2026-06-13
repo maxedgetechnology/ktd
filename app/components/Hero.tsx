@@ -31,8 +31,8 @@ export default function Hero() {
           
           {/* Hero Content (Columns 1-7) */}
           <div className="lg:col-span-7 flex flex-col justify-center text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 bg-terracotta-light text-terracotta px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider self-center lg:self-start mb-6 border border-terracotta/10 shadow-sm animate-pulse">
-              <span>Alternative Rites of Passage</span>
+            <div className="inline-flex items-center gap-2 bg-terracotta-light text-terracotta px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider self-center lg:self-start mb-6 border border-terracotta/10 shadow-sm">
+              <span>Zero Tolerance to FGM</span>
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-zinc-900 leading-tight">
@@ -76,19 +76,18 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Micro Stats Bar */}
             <div className="mt-12 pt-8 border-t border-zinc-200/60 grid grid-cols-3 gap-4 text-center lg:text-left max-w-md mx-auto lg:mx-0">
               <div>
-                <p className="text-3xl font-extrabold text-terracotta">7 / 19</p>
-                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">SL Communities Guided</p>
+                <p className="text-3xl font-extrabold text-terracotta">100%</p>
+                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">Zero Tolerance Stance</p>
               </div>
               <div>
-                <p className="text-3xl font-extrabold text-zinc-900">100%</p>
-                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">Direct Funding Impact</p>
+                <p className="text-3xl font-extrabold text-zinc-900">Direct</p>
+                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">Funding Impact</p>
               </div>
               <div>
                 <p className="text-3xl font-extrabold text-gold">10k+</p>
-                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">Lives Protected</p>
+                <p className="text-xs text-zinc-500 font-semibold uppercase mt-1">Advocacy Reach</p>
               </div>
             </div>
           </div>
@@ -119,8 +118,8 @@ export default function Hero() {
                   ⚡
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-zinc-900">Alternative Rites</p>
-                  <p className="text-[10px] text-zinc-500 font-medium">Protecting girls, preserving rituals.</p>
+                  <p className="text-xs font-bold text-zinc-900">Zero Tolerance</p>
+                  <p className="text-[10px] text-zinc-500 font-medium">Ending FGM, protecting girls.</p>
                 </div>
               </div>
             </div>

@@ -51,8 +51,8 @@ export default function SarianStory() {
                   <p className="text-[9px] text-zinc-500 font-bold uppercase">Age Cut</p>
                 </div>
                 <div className="border-x border-brand-gray-border">
-                  <p className="text-lg font-extrabold text-terracotta">7/19</p>
-                  <p className="text-[9px] text-zinc-500 font-bold uppercase">Communities</p>
+                  <p className="text-lg font-extrabold text-terracotta">0%</p>
+                  <p className="text-[9px] text-zinc-500 font-bold uppercase">Tolerance</p>
                 </div>
                 <div>
                   <p className="text-lg font-extrabold text-zinc-900">UK</p>
@@ -72,7 +72,7 @@ export default function SarianStory() {
                 </div>
                 <div className="flex items-center gap-3 text-sm text-zinc-700">
                   <Heart className="h-4.5 w-4.5 text-zinc-400 shrink-0" />
-                  <span>Advocating Alternative Rites</span>
+                  <span>Advocating Zero Tolerance</span>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function SarianStory() {
             <div>
               <h3 className="text-2xl font-extrabold text-zinc-900 mb-4">About Your Host</h3>
               <p className="text-zinc-650 leading-relaxed text-base">
-                Sarian created KDLK to reconcile her deep love for her Sierra Leonean culture with the urgent necessity to protect young girls. Through grassroots activism, she addresses FGM with understanding, dialogue, and alternative traditions.
+                Sarian created KDLK to reconcile her deep love for her Sierra Leonean culture with the urgent necessity to protect young girls. Through grassroots activism, she addresses FGM with understanding, dialogue, and a firm stance on total abolition.
               </p>
             </div>
 
@@ -119,9 +119,9 @@ export default function SarianStory() {
               {/* Impact detail */}
               <div className="border border-brand-gray-border bg-white p-6 rounded-2xl">
                 <span className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider block mb-1">The Impact</span>
-                <h4 className="text-base font-bold text-zinc-900 mb-2">Alternative Rites of Passage</h4>
+                <h4 className="text-base font-bold text-zinc-900 mb-2">Zero Tolerance Advocacy</h4>
                 <p className="text-xs text-zinc-500 leading-relaxed">
-                  Her community-led framework has successfully guided 7 out of 19 local communities in Sierra Leone to adopt bloodless rites of initiation, keeping drumming while eliminating cutting.
+                  Her community-led framework demands a complete and unconditional end to FGM (the Bondo practice), mobilizing communities to reject the ritual entirely.
                 </p>
               </div>
 

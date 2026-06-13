@@ -29,9 +29,9 @@ export default function DonationWidget() {
     if (amount <= 0) return "Choose an amount to see how you will help protect young girls and support survivors.";
     if (amount < 25) return `Provides direct support towards printing multilingual safety posters in community safe spaces.`;
     if (amount >= 25 && amount < 50) return `Funds a set of educational workshop materials and multi-language warning posters for UK diaspora outreach.`;
-    if (amount >= 50 && amount < 100) return `Covers Bondo society ceremonial drum supplies and food for alternative bloodless rites of passage in Sierra Leone.`;
+    if (amount >= 50 && amount < 100) return `Supports grassroots awareness campaigns in Sierra Leone to educate local communities and advocate for zero tolerance.`;
     if (amount >= 100 && amount < 250) return `Provides professional survivor circle counseling space and refreshments for bi-weekly London support groups.`;
-    return `Sponsors a complete alternative initiation ceremony for a community, removing the cutting ritual while keeping traditional drumming and education.`;
+    return `Sponsors a comprehensive community-wide FGM abolition campaign and educational workshop to protect vulnerable girls.`;
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -117,7 +117,7 @@ export default function DonationWidget() {
                 className="w-full bg-transparent border-0 p-0 text-sm font-semibold text-zinc-800 focus:ring-0 cursor-pointer mt-1 focus:outline-none"
               >
                 <option value="general">General Support (Where Needed Most)</option>
-                <option value="rites">Alternative Rites of Passage</option>
+                <option value="abolition">Zero Tolerance Advocacy</option>
                 <option value="diaspora">Diaspora Outreach & Education</option>
                 <option value="circles">Survivor Circles & Healing Groups</option>
               </select>

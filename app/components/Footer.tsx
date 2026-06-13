@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
             
             <p className="text-xs text-zinc-500 leading-relaxed max-w-sm">
-              We are a survivor-led movement dedicated to addressing FGM within Sierra Leonean and global diaspora communities by separating harmful cutting from sacred rites of passage.
+              We are a survivor-led movement dedicated to addressing FGM within Sierra Leonean and global diaspora communities, advocating for zero tolerance and complete abolition of Bondo cutting practices.
             </p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-3">
             <h4 className="font-bold text-zinc-900 uppercase tracking-widest text-[10px]">What We Do</h4>
             <ul className="space-y-2.5">
-              <li><a href="#pillars" className="hover:text-zinc-900 transition-colors">Alternative Rites</a></li>
+              <li><a href="#pillars" className="hover:text-zinc-900 transition-colors">Zero Tolerance</a></li>
               <li><a href="#pillars" className="hover:text-zinc-900 transition-colors">Diaspora Education</a></li>
               <li><a href="#pillars" className="hover:text-zinc-900 transition-colors">Survivor Circles</a></li>
               <li><a href="#pillars" className="hover:text-zinc-900 transition-colors">Institutional Advisory</a></li>

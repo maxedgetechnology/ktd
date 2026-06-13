@@ -184,7 +184,7 @@ export default function FounderPage() {
               <div className="relative aspect-[16/9] w-full rounded-2xl overflow-hidden border border-brand-gray-border shadow-sm mb-4">
                 <Image
                   src="https://pbs.twimg.com/media/Gr9F3bcXsAA8uJb.jpg"
-                  alt="KDLK Alternative Rite of Passage Initiative in Sierra Leone"
+                  alt="KDLK Zero Tolerance FGM Campaign in Sierra Leone"
                   fill
                   className="object-cover"
                   sizes="(max-w-768px) 100vw, 50vw"
@@ -194,17 +194,17 @@ export default function FounderPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 {/* Bondo Society */}
                 <div className="flex flex-col bg-brand-light p-5 rounded-2xl border border-brand-gray-border">
-                  <div className="text-sm font-extrabold text-zinc-950 mb-2">Reforming Bondo</div>
+                  <div className="text-sm font-extrabold text-zinc-950 mb-2">Ending Bondo Practice</div>
                   <p className="text-xs text-zinc-550 leading-relaxed flex-1">
-                    Rather than fighting traditional culture, Sarian respects it. She self-funds regular trips to Sierra Leone to run youth workshops.
+                    Sarian stands firm on the complete eradication of FGM. She self-funds regular trips to Sierra Leone to run youth workshops campaigning against Bondo cutting practices.
                   </p>
                 </div>
 
                 {/* Tangible Shifts */}
                 <div className="flex flex-col bg-brand-light p-5 rounded-2xl border border-brand-gray-border">
-                  <div className="text-sm font-extrabold text-zinc-950 mb-2">Tangible Shifts</div>
+                  <div className="text-sm font-extrabold text-zinc-950 mb-2">Zero Tolerance Stance</div>
                   <p className="text-xs text-zinc-550 leading-relaxed flex-1">
-                    Her unique approach has successfully persuaded 7 out of 19 local communities in Sierra Leone to replace cutting rituals with bloodless, educational Alternatives Rites of Passage (ARP).
+                    Her advocacy framework demands a complete and unconditional end to FGM (the Bondo practice), mobilizing communities to reject the cutting ritual entirely without promoting alternative rites.
                   </p>
                 </div>
 
@@ -287,7 +287,7 @@ export default function FounderPage() {
               <div className="bg-white border border-brand-gray-border p-5 rounded-2xl shadow-sm">
                 <h4 className="text-xs font-bold text-zinc-950 mb-2">Campaign Impact</h4>
                 <p className="text-[11px] text-zinc-500 leading-relaxed">
-                  Support Sarian's self-funded trips and community-led workshops in Sierra Leone to expand alternatives to cutting.
+                  Support Sarian's self-funded trips and community-led workshops in Sierra Leone to advocate for zero tolerance to FGM and end Bondo cutting.
                 </p>
               </div>
             </div>

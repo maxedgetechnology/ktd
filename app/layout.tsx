@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "KDLK | Honor the Culture. Protect the Girl Child.",
-  description: "Keep the Drums, Lose the Knife (KDLK) is a survivor-led movement dedicated to addressing FGM by separating harmful cutting from sacred rites of passage through the healing power of traditional West African drumming.",
+  description: "Keep the Drums, Lose the Knife (KDLK) is a survivor-led movement advocating for zero tolerance and a complete end to FGM (the Bondo practice), demanding its total eradication from society, and supporting survivor healing through the traditional power of West African drumming.",
 };
 
 export default function RootLayout({

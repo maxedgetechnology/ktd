@@ -15,9 +15,9 @@ export default function NewsGrid() {
   const newsItems: NewsItem[] = [
     {
       id: 1,
-      category: "Grassroots Shifts: Alternative Rites of Passage Gain Ground",
-      title: "7 Local Communities in Sierra Leone Lay Down the Knife",
-      subtitle: "How our self-funded community engagement workshops successfully replaced cutting rituals while fully preserving traditional Bondo celebrations.",
+      category: "Grassroots Shifts: Zero Tolerance to FGM",
+      title: "Sierra Leone Communities Rally for Total Abolition",
+      subtitle: "How our self-funded grassroots campaigns are uniting community leaders to demand a complete end to the Bondo cutting practice.",
       link: "https://www.giraffe.org/sarian-karim-kamara",
       image: "/alternative_rite.png",
       linkLabel: "Read the Impact Report"

@@ -52,7 +52,7 @@ export default function NewsPage() {
               <div className="bg-white border border-brand-gray-border p-5 rounded-2xl shadow-sm">
                 <h4 className="text-xs font-bold text-zinc-950 mb-2">Our Campaign Integrity</h4>
                 <p className="text-[11px] text-zinc-500 leading-relaxed">
-                  We are survivor-founded and survivor-led. We coordinate directly with local Soweis (Bondo Society initiators) in Sierra Leone to achieve permanent, voluntary reform.
+                  We are survivor-founded and survivor-led. We stand firm on zero tolerance to FGM and demand a complete end to the Bondo cutting practice, advocating for the total protection of young girls.
                 </p>
               </div>
             </div>

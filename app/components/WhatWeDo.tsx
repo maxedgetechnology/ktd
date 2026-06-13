@@ -15,12 +15,12 @@ export default function WhatWeDo() {
   const pillars: Pillar[] = [
     {
       id: 1,
-      title: "Alternative Rites of Passage",
+      title: "Zero Tolerance to FGM",
       location: "Sierra Leone Communities",
-      tagline: "Culture without harm",
-      description: "We fund and facilitate community-led initiation ceremonies that preserve traditional marriage and motherhood education, entirely removing the cutting ritual.",
+      tagline: "End Bondo Practice",
+      description: "We run grassroots education campaigns in Sierra Leone for the total abolition of FGM and Bondo society initiation practices, declaring they have no place in current society.",
       image: "/alternative_rite.png",
-      actionLabel: "Support rites"
+      actionLabel: "Support abolition"
     },
     {
       id: 2,

@@ -57,7 +57,7 @@ export default function AboutPage() {
                 Culture Over Trauma
               </h2>
               <p className="text-zinc-500 text-xs mb-6">
-                We do not ask communities to abandon their history. Instead, we advocate for Alternative Rites of Passage (ARP).
+                We stand for the total eradication of FGM (the Bondo practice). It has no place in current society, and we do not support alternative rites.
               </p>
 
               {/* Side-by-side or Stacked cards */}
@@ -69,7 +69,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-base font-extrabold text-zinc-950 mb-2">We Keep the Drums</h3>
                   <p className="text-xs text-zinc-650 leading-relaxed flex-1">
-                    We honor, protect, and elevate the rich music, sisterhood, and cultural pride of the traditional Sierra Leonean Bondo society.
+                    We utilize West African traditional drumming and music for collective healing, survivor support, and community mobilization.
                   </p>
                 </div>
 
@@ -80,7 +80,7 @@ export default function AboutPage() {
                   </div>
                   <h3 className="text-base font-extrabold text-zinc-950 mb-2">We Lose the Knife</h3>
                   <p className="text-xs text-zinc-650 leading-relaxed flex-1">
-                    We work systematically to completely remove the practice of cutting, replacing physical harm with education, mentorship, and health awareness.
+                    We work systematically to demand zero tolerance and complete abolition of FGM and the Bondo cutting practices, ensuring young girls are protected.
                   </p>
                 </div>
               </div>
@@ -129,12 +129,11 @@ export default function AboutPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Impact 1 */}
                 <div className="p-5 border border-brand-gray-border rounded-2xl hover:bg-brand-light transition-colors">
                   <span className="text-[10px] font-extrabold uppercase text-terracotta tracking-wider block mb-1">Sierra Leone</span>
-                  <h4 className="text-sm font-extrabold text-zinc-950 mb-1.5">Community Trust</h4>
+                  <h4 className="text-sm font-extrabold text-zinc-950 mb-1.5">Grassroots Advocacy</h4>
                   <p className="text-xs text-zinc-500 leading-relaxed">
-                    Successfully engaged and persuaded 7 out of 19 local communities in Sierra Leone to adopt bloodless initiation ceremonies.
+                    Engaging directly with local villages in Sierra Leone to campaign for zero tolerance and the complete rejection of Bondo society cutting.
                   </p>
                 </div>
 
@@ -216,7 +215,7 @@ export default function AboutPage() {
               <div className="bg-[#FFF2F0] border border-brand-gray-border p-5 rounded-2xl">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-terracotta mb-2">Join Our Cause</h4>
                 <p className="text-[11px] text-zinc-650 leading-relaxed">
-                  Support alternative, bloodless rituals that protect children without erasing West African Bondo society tradition.
+                  Support our direct advocacy to end FGM completely. Bondo cutting practices have no place in current society.
                 </p>
               </div>
             </div>

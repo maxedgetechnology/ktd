@@ -95,7 +95,7 @@ export default function Home() {
               <div className="bg-[#FFF2F0] border border-brand-gray-border p-5 rounded-2xl">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-terracotta mb-2">UK & Sierra Leone Partnership</h4>
                 <p className="text-[11px] text-zinc-600 leading-relaxed">
-                  Our alternative rites program combines community-led celebration with formal educational structures in Freetown, paired with clinical counselor circles in South East London.
+                  Our advocacy program combines grassroots zero-tolerance campaigns in Sierra Leone with clinical counselor circles in South East London.
                 </p>
               </div>
             </div>

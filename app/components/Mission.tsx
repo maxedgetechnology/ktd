@@ -20,7 +20,7 @@ export default function Mission() {
             </p>
             <p className="mt-4 text-base sm:text-lg text-zinc-600 leading-relaxed">
               We believe that true liberation doesn’t require abandoning our rich West African heritage. 
-              By separating harmful practices from sacred rites of passage, we give girls a future filled with choice, education, and pride.
+              By standing firm on zero tolerance and demanding the complete eradication of the Bondo cutting practice, we give girls a future filled with choice, education, and pride.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Mission() {
             </div>
             <h3 className="text-lg font-bold text-zinc-900 mb-3">Culture without Harm</h3>
             <p className="text-zinc-600 text-sm leading-relaxed">
-              We uplift traditional Sierra Leonean Bondo society drumming, celebration, and education while working to eliminate the knife completely.
+              We utilize traditional West African drumming for healing and community mobilization, while standing firm on the complete eradication of the Bondo practice.
             </p>
           </div>
 
